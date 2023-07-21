@@ -10,4 +10,11 @@ public abstract class Person {
     public Long getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                '}';
+    }
 }
